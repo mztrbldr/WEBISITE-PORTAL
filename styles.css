@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+.container{
+    background-color: rgb(217, 217, 219);
+    display: flex;
+    justify-content: center; /* Center children horizontally */
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    padding: 2rem; /* Add some padding 
+  
+    /*display: flex; /* Enable Flexbox */
+    /*width: 100%; /* Or a defined width */
+    /*display: grid;
+    grid-template-columns: auto auto;*/
+ 
+
+}
+
+.formdiv{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(241, 241, 241);
+    border: 4px;
+    border-radius: 10px;
+    width: 30%;
+    height: fit-content;
+    margin: 4rem 2rem 0 20rem; /* Adjusted margin for top and sides */
+    padding: 10px;
+    padding-left: 15px;
+    box-shadow: 2px 2px 5px rgb(139, 137, 137);
+   
+}
+
+.inputbox{
+    padding-left: 25px;
+    width: 80%;  
+    background-color: rgba(180, 230, 165, 0);
+    border-color: rgba(180, 230, 165, 0);
+    border-bottom: 2px solid rgb(32, 77, 116);
+    outline: none;
+    transition: border-bottom 0.3s ease;
+
+}
+.inputbox:focus {
+    border-bottom: 2px solid rgb(32, 77, 116);
+}
+.partitiondiv{
+   
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.logoimg{
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+
+.signup_button{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(165, 29, 19);
+    padding: 15px 32px;
+    margin-top: 5px;
+    margin-left: 8 rem;
+    border-radius: 3px;
+    border-style: solid;
+    border-color:rgb(189, 40, 29);
+    transition:0.3s ease; 
+    box-shadow: 2px 2px 5px rgb(139, 137, 137);
+    cursor: pointer;
+
+}
+
+.signup_button:hover{
+    background-color: rgb(189, 40, 29); 
+    border-color:  rgb(165, 29, 19);
+    /*color: #007BFF; */
+    outline: none; 
+}
+
+.login_button{
+    font-family: 'Oswald', sans-serif;
+    background-color:rgb(165, 29, 19);
+    padding: 15px 32px;
+    margin-top: 5px;
+
+    border-radius: 3px;
+    border-style: solid;
+    border-color:rgb(189, 40, 29);
+    transition:0.3s ease; 
+    box-shadow: 2px 2px 5px rgb(139, 137, 137);
+    cursor: pointer;
+}
+.login_button:hover{
+    background-color: rgb(189, 40, 29); 
+    border-color:  rgb(165, 29, 19);
+    /*color: #007BFF; */
+    outline: none; 
+
+}
+
+.resetPw_button{
+    font-family: 'Oswald', sans-serif;
+    background-color:rgb(165, 29, 19);
+    padding: 15px 32px;
+    margin-top: 5px;
+
+    border-radius: 3px;
+    border-style: solid;
+    border-color:rgb(189, 40, 29);
+    transition:0.3s ease; 
+    box-shadow: 2px 2px 5px rgb(139, 137, 137);
+    cursor: pointer;
+}
+
+.resetPw_button:hover{
+    background-color: rgb(189, 40, 29); 
+    border-color:  rgb(165, 29, 19);
+    /*color: #007BFF; */
+    outline: none; 
+
+}
+
+.forgotPw_button{
+
+    background: none; 
+    color: blue; 
+    border: none; 
+    margin-left: 11rem;
+    padding: 0; 
+    font-size: 10px; 
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.forgotPw_button:hover{
+    color: darkblue;
+
+}
+
+.logInAcc_button{
+
+    background: none; 
+    color: blue; 
+    border: none; 
+    margin-left: 7rem;
+    padding: 0; 
+    font-size: 10px; 
+    text-decoration: underline; 
+    cursor: pointer; 
+}
+
+.logInAcc_button:hover{
+    color: darkblue;
+
+}
+
+.logInAccRs_button{
+
+    background: none; 
+    color: blue; /* Text color */
+    border: none; /* No border */
+    margin-left: 3rem;
+    padding: 0; /* No padding */
+    font-size: 10px; /* Font size */
+    text-decoration: underline; /* Underline to look like a link */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.logInAccRs_button:hover{
+    color: darkblue;
+
+}
+
+.createAcc_button{
+
+    background: none; /* No background */
+    color: blue; /* Text color */
+    border: none; /* No border */
+    margin-left: 18rem;
+    padding: 0; /* No padding */
+    font-size: 10px; /* Font size */
+    text-decoration: underline; /* Underline to look like a link */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.createAcc_button:hover{
+    color: darkblue;
+
+}
+
+
+
+.front_logo {
+    background-image: url('../image/CEA.png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 300px; 
+    height: 300px; 
+    margin-top: 3rem; 
+    margin-left: 8rem; 
+}
+.logo_words {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 15rem; 
+    margin-left: 90px; 
+}
+

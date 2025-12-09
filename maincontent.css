@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+}
+
+.sidebar {
+    background-color: #8B0000;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto; 
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex; /* Use flex to align items */
+    align-items: center; /* Vertically center the logo and text */
+}
+
+.button {
+    font-family: "Oswald", sans-serif;
+    display: block;
+    width: 100%;
+    background-color: #8B0000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px; 
+    margin-bottom: 10px; 
+}
+
+.button:hover {
+    background-color: #5A0000; 
+}
+
+.button:focus {
+    outline: none; 
+}
+
+.main-content {
+    flex: 1; 
+    padding: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.announcement {
+    background-color: #FFFFFF; 
+    width: 100%; 
+    max-width: 600px; 
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputbox {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    width: 80%;  
+    background-color: rgba(180, 230, 165, 0); 
+    border: none; 
+    border-bottom: 2px solid rgb(32, 77, 116); 
+    outline: none; 
+    transition: border-bottom 0.3s ease; 
+}
+
+.inputbox:focus {
+    border-bottom: 2px solid rgb(32, 77, 116);
+}
+
+.postbutton {
+    font-family: "Oswald", sans-serif;
+    background-color: #8B0000; 
+    color: #fff; 
+    border: none; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    font-size: 14px; 
+    width: fit-content;
+}
+
+.announcement form {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.postbutton:hover {
+    background-color: #5A0000; 
+}
+
+.announcementContent {
+    background-color: #FFFFFF; 
+    width: 100%; 
+    max-width: 600px; 
+    margin: 10px 0; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    position: relative; 
+}
+
+.deleteButton {
+    font-family: "Oswald", sans-serif; 
+    font-size: 14px; 
+    color: #fff; 
+    background-color: #8B0000; 
+    border: none; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 2rem; 
+    transition: background-color 0.3s; 
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px; 
+}
+
+.deleteButton:hover {
+    background-color: #5A0000; 
+}
+
+.clearButton {
+    font-family: "Oswald", sans-serif; 
+    font-size: 14px; 
+    color: #fff; 
+    background-color: #8B0000; 
+    border: none; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 2rem; 
+    transition: background-color 0.3s; 
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px; 
+}
+
+.clearButton:hover {
+    background-color: #5A0000; 
+}
+
+.attachment-button {
+    display: inline-block; 
+    padding: 8px 15px; 
+    background-color:  #8B0000; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    text-align: center; 
+    cursor: pointer; 
+    margin-top: 15px; 
+    font-size: 14px; 
+    width: fit-content;
+}
+
+.attachment-button:hover {
+    background-color: #5A0000; 
+}
+
+.success-message, .error-message {
+    margin: 10px 0; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.success-message {
+    color: green; 
+}
+
+.error-message {
+    color: red; 
+}
+
+.file-name {
+    font-size: 0.8em; 
+    color: #666; 
+    margin-bottom: 10px; 
+}
+
+#attachment {
+    display: none; 
+}
+
+.edatebox {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 25px;
+    display: inline-block; 
+    padding: 8px 15px; 
+    background-color:  #8B0000; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    text-align: center; 
+    cursor: pointer; 
+    margin-top: 15px; 
+    font-size: 14px; 
+    width: fit-content;
+    margin-left: 12rem;
+}
+
+
+
+.sidebar-header {
+    background-image: url('C:/xampp/htdocs/TRIAL/org_portal/image/icpep.selogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px; /* Adjust height as needed */
+    padding-left: 20px; /* Adjust padding as needed */
+    color: white; /* Text color */
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+
